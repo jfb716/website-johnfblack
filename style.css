@@ -115,11 +115,42 @@ footer a {
 
 /*Resume Page*/
 
+#res_box {
+    background-color: #aaaaaa;
+}
 
 
+.job_box {
+    padding: 0px 10px 50px 30px;
+    display: inline-block;
+    background-color: #eaeaea;
+}
 
+.edu_box {
+    padding: 0px 10px 50px 30px;
+    display: inline-block;
+    background-color: #eaeaea;
 
+}
 
+.res_icon {
+    padding: 1px;
+    display: inline-block;
+    text-decoration: none; 
+    margin-left: 500px;
+}
+
+.res_cat {
+    display: inline-block;
+    color: #919191;
+    font-size: 25px;
+}
+
+hr {
+    padding: 0px;
+    margin: 0px;
+  
+}
 
 
 
