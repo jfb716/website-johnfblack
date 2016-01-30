@@ -1,11 +1,11 @@
 body {
-    background: #000000;
+    background: #aaaaaa;
     margin: 0;
 } 
 
 .link-title {
     text-decoration: none;
-    font-size: 24px;
+    font-size: 40px;
     color: #444444;
 }
 
@@ -53,6 +53,7 @@ h1 {
     font-size: 24px;
     font-family: "Garamond", "Myriad Pro";
     font-weight: 800;
+    width: 300px;
 }
 
 
@@ -124,26 +125,36 @@ footer a {
     padding: 0px 10px 50px 30px;
     display: inline-block;
     background-color: #eaeaea;
+    width: 70%;
 }
 
 .edu_box {
-    padding: 0px 10px 50px 30px;
+    padding: 0px 10px 40px 30px;
     display: inline-block;
     background-color: #eaeaea;
+    width: 70%;
 
 }
 
 .res_icon {
-    padding: 1px;
+    padding: 2px;
     display: inline-block;
-    text-decoration: none; 
-    margin-left: 500px;
+    float: right;
+    margin-right: 7%;
+    margin-top: 14%;
+    
 }
 
 .res_cat {
     display: inline-block;
     color: #919191;
     font-size: 25px;
+    float: top;
+    width: 30%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height: 60px;
 }
 
 hr {
@@ -152,5 +163,29 @@ hr {
   
 }
 
+#edu_body {
+    width: 60%;
+    float: left;
+    margin-top: 5%;
+}
 
+.job_body_first {
+    width: 60%;
+    float: left;
+    margin-top: 5%;
+}
 
+.job_body_rest {
+    width: 70%;
+    float: left;
+    margin-top: 15%;
+    margin-bottom: 2%;
+}
+
+.ticker {
+    display: inline-block;
+    height: 20px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
