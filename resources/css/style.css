@@ -46,6 +46,28 @@ h4 {
     color: #bfbfbf;
 }
 
+.facebook-icon
+img {
+    width: 50px;
+    height: 50px; 
+    border-radius: 10px;
+    box-shadow: 10px 4px 50px #434343; 
+    float: right;
+    margin-right: 50px;
+    margin-top: -20px; 
+}
+
+.linkedin-icon
+img {
+    width: 50px;
+    height: 50px; 
+    border-radius: 10px;
+    box-shadow: 10px 4px 50px #434343; 
+    float: right;
+    margin-right: 30px;
+    margin-top: -20px; 
+}
+
 .main {
     margin: 0px;
     padding: 0px;
