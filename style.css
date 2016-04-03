@@ -1,0 +1,39 @@
+body {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+
+
+header {
+    background-color:#4b4b4b;
+    padding:5px;
+    height: 30px;
+    width: auto;
+}
+.profile {
+    line-height:1px;
+    background-color:#eeeeee;
+    height:auto;
+    width:200px;
+    float:left;
+    padding:5px;
+    text-align: right;
+}
+
+.profile_pic {
+    width: 170px;
+    
+}
+.main_section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+footer {
+    background-color:#4b4b4b;
+    clear:both;
+    padding:5px;	 	
+    height: 30px;
+    width: auto;
+}
