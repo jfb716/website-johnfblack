@@ -6,9 +6,9 @@ body {
 
 
 header {
-    background-color:#4b4b4b;
+    background-color:#919191;
     padding:5px;
-    height: 30px;
+    height: 20px;
     width: auto;
 }
 .profile {
@@ -18,7 +18,7 @@ header {
     width:200px;
     float:left;
     padding:5px;
-    text-align: right;
+    text-align: center;
 }
 
 .profile_pic {
@@ -31,9 +31,20 @@ header {
     padding:10px;	 	 
 }
 footer {
-    background-color:#4b4b4b;
+    background-color:#919191;
     clear:both;
     padding:5px;	 	
-    height: 30px;
+    height: 20px;
     width: auto;
+}
+
+.blue_bar_top {
+    background-color: #7f8dc9;
+    height: 20px;
+}
+
+.blue_bar_bot {
+    background-color: #7f8dc9;
+    height: 20px;
+    clear:both;
 }
