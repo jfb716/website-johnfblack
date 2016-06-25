@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html>
 
@@ -13,29 +11,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <script type='text/javascript'>
-  var googletag = googletag || {};
-  googletag.cmd = googletag.cmd || [];
-  (function() {
-    var gads = document.createElement('script');
-    gads.async = true;
-    gads.type = 'text/javascript';
-    var useSSL = 'https:' == document.location.protocol;
-    gads.src = (useSSL ? 'https:' : 'http:') +
-      '//www.googletagservices.com/tag/js/gpt.js';
-    var node = document.getElementsByTagName('script')[0];
-    node.parentNode.insertBefore(gads, node);
-  })();
-</script>
 
-<script type='text/javascript'>
-  googletag.cmd.push(function() {
-    googletag.defineSlot('/27721068/johnfblack', [300, 100], 'div-gpt-ad-1466197590696-0').addService(googletag.pubads());
-    googletag.pubads().enableSingleRequest();
-    googletag.pubads().collapseEmptyDivs();
-    googletag.enableServices();
-  });
-</script>
   </head>
 
 <body>
@@ -47,13 +23,85 @@
     </div>
     <br>
     <br>
-    <div style="height: 100px; width: 300px; margin: auto">
-        <!-- /27721068/johnfblack -->
-<div id='div-gpt-ad-1466197590696-0' style='height:100px; width:300px;'>
-<script type='text/javascript'>
-googletag.cmd.push(function() { googletag.display('div-gpt-ad-1466197590696-0'); });
-</script>
-</div>
+    <div style="height: 369px; width: 350px; margin: auto;">
+    <style>
+     #ad_root {
+        display: none;
+        font-size: 14px;
+        height: 369;
+        line-height: 16px;
+        position: relative;
+        margin: 0;
+        width: 100%;
+      }
+      .thirdPartyMediaClass {
+        height: 269px;
+        width: 100%;
+      }
+      .thirdPartyTitleClass {
+        font-weight: bold;
+        font-size: 17px;
+        height: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: #f00a71;
+        margin: 0 0 5px 20px;
+        white-space: nowrap;
+        font-family: "Neue Frutiger W01", sans-serif;
+      }
+
+      .thirdPartyCallToActionClass {
+        color: #FFFFFF;
+        font-family: "Neue Frutiger W01", sans-serif;
+        font-weight: bold;
+        background-color: #f00a71;
+        padding: 2px;
+        border-radius: 5px;
+        font-size: 17px;
+        float: right;
+        margin: 5px 0 0 0;
+      }
+
+      #ad_root div:nth-child(2) {
+         background: transparent !important;
+      }
+      #ad_root div:nth-child(2) img {
+         background: transparent !important;
+        }
+
+    </style>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.Event.subscribe(
+          'ad.loaded',
+          function(placementId) {
+            console.log('Audience Network ad loaded');
+            document.getElementById('ad_root').style.display = 'block';
+          }
+        );
+        FB.Event.subscribe(
+          'ad.error',
+          function(errorCode, errorMessage, placementId) {
+            console.log('Audience Network error (' + errorCode + ') ' + errorMessage);
+          }
+        );
+      };
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk/xfbml.ad.js#xfbml=1&version=v2.5&appId=118220978561571";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div class="fb-ad" data-placementid="118220978561571_223415828042085" data-format="native" data-nativeadid="ad_root" data-testmode="false"></div>
+    <div id="ad_root">
+      <a class="fbAdLink">
+        <div class="fbAdTitle thirdPartyTitleClass"></div>
+        <div class="fbAdMedia thirdPartyMediaClass"></div>
+        <div class="fbAdCallToAction thirdPartyCallToActionClass"></div>
+      </a>
+    </div> 
     </div>
         
         <br>
