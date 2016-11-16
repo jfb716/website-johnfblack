@@ -7,6 +7,8 @@ $(document).ready(function() {
         $(".profile").fadeIn(1000);
         console.log("The Profile Image Was Faded In");
     });
+    
+    
 });
 
 $(document).ready(function(){

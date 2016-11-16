@@ -295,7 +295,7 @@ a:active {
 
 .nyc {
     display: inline-block;
-    margin: auto;
+    margin: auto 35px;
     padding: 0;
 }
 
@@ -306,7 +306,19 @@ a:active {
 
 .gi {
     display: inline-block;
-    margin: auto;
+    margin: auto 35px;
+    padding: 0;
+}
+
+.fb-page {
+    display: inline-block;
+    margin: auto 35px;
+    padding: 0;
+}
+
+.buff_twitter {
+    display: inline-block;
+    margin: auto 35px;
     padding: 0;
 }
 

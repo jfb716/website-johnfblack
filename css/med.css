@@ -292,6 +292,19 @@ a:active {
     word-spacing: .5px;
 }
 
+.fb-page {
+    display: inline-block;
+    margin: 25px auto;
+    padding: 0;
+}
+
+.buff_twitter {
+    display: inline-block;
+    margin: auto;
+    padding: 0;
+
+}
+
 .nyc_logo img {
     max-width: 70px;
     opacity: .7;

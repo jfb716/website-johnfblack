@@ -16,8 +16,20 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
+        
+        
     </head>
     <body>
+       
+       <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=118220978561571";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+       
         <main>
             <section class="john">
                 <figure class="profile">
@@ -62,23 +74,15 @@
                 </figure>
                 <hr>
                 <div class="nyc">
-                <figure class="nyc_logo">
-                    <img src="resources/nyc_logo.png" alt="NYC Skyline">
-                </figure>
                 <p>New York City</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48354.159420728734!2d-74.00425023674914!3d40.759056207577395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2sManhattan%2C+New+York%2C+NY!5e0!3m2!1sen!2sus!4v1479266682916" width="250" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
                 <div class="gi">
                 <p>Grand Island</p>
-                <figure class="gi_logo">
-                    <img src="resources/gi_logo.jpg" alt="Grand Island">
-                </figure>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46677.84137911318!2d-78.99162667552245!3d43.012702111924746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d36bc3f3d1236b%3A0x3d219524f4d35081!2sGrand+Island%2C+NY!5e0!3m2!1sen!2sus!4v1479266390325" width="250" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
-                <div class="blo">
-                <figure class="blo_logo">
-                    <img src="resources/blo_logo.jpg" alt="Buffalo Skyline">
-                </figure>
-                <p>Buffalo</p>
-                </div>
+                
+                
                 <hr>
             </section>
 
@@ -95,6 +99,10 @@
                 <h2>University at Buffalo</h2>
                 <p>June 2010</p>
                 <p>B.S. Business Administration</p>
+                <div class="buff_twitter">
+                    <a class="twitter-timeline" data-width="250" data-height="200" data-theme="dark" href="https://twitter.com/UBuffalo">Tweets by UBuffalo</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div class="fb-page" data-href="https://www.facebook.com/universityatbuffalo" data-tabs="timeline" data-width="250" data-height="200" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/universityatbuffalo" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/universityatbuffalo">University at Buffalo</a></blockquote></div>
                 <br>
                 <hr>
             </section>
