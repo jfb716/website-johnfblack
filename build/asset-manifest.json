@@ -1,16 +1,12 @@
 {
   "files": {
-    "main.css": "/website-johnfblack/static/css/main.073c9b0a.css",
-    "main.js": "/website-johnfblack/static/js/main.35b4fe8b.js",
-    "static/js/787.20c50281.chunk.js": "/website-johnfblack/static/js/787.20c50281.chunk.js",
-    "static/media/logo.svg": "/website-johnfblack/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/website-johnfblack/static/css/main.31d6cfe0.css",
+    "main.js": "/website-johnfblack/static/js/main.27fc99b6.js",
     "index.html": "/website-johnfblack/index.html",
-    "main.073c9b0a.css.map": "/website-johnfblack/static/css/main.073c9b0a.css.map",
-    "main.35b4fe8b.js.map": "/website-johnfblack/static/js/main.35b4fe8b.js.map",
-    "787.20c50281.chunk.js.map": "/website-johnfblack/static/js/787.20c50281.chunk.js.map"
+    "main.27fc99b6.js.map": "/website-johnfblack/static/js/main.27fc99b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.35b4fe8b.js"
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.27fc99b6.js"
   ]
 }

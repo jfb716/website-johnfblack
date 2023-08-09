@@ -1,0 +1,13 @@
+body {
+    padding: 50px;
+}
+
+.row {
+    margin: 50px;
+}
+
+.col {
+    padding: 50px;
+    margin: 5px;
+    border: 1px solid black;
+}
