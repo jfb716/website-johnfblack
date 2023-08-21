@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/website-johnfblack/static/css/main.c924109d.css",
-    "main.js": "/website-johnfblack/static/js/main.9be81ade.js",
+    "main.js": "/website-johnfblack/static/js/main.83e45faf.js",
     "index.html": "/website-johnfblack/index.html",
     "main.c924109d.css.map": "/website-johnfblack/static/css/main.c924109d.css.map",
-    "main.9be81ade.js.map": "/website-johnfblack/static/js/main.9be81ade.js.map"
+    "main.83e45faf.js.map": "/website-johnfblack/static/js/main.83e45faf.js.map"
   },
   "entrypoints": [
     "static/css/main.c924109d.css",
-    "static/js/main.9be81ade.js"
+    "static/js/main.83e45faf.js"
   ]
 }
