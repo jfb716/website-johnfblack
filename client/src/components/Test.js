@@ -1,16 +1,18 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Test = () => {
     const [bc, setBc] = useState("blue");
+    const [message, setMessage] = useState("")
+
+    useEffect(() => {
+        fetch("http://localhost:8000/message")
+            .then((res) => res.json())
+        .then((data) => setMessage(data.message))
+    })
 
     const changeToRed = () => {
         setBc("red");
         console.log("red")
-    }
-
-    const changeToBlue = () => {
-        setBc("Blue");
-        console.log("blue")
     }
 
     return (
@@ -22,10 +24,7 @@ const Test = () => {
             </div>
             <div className="row">
                 <div style={{ backgroundColor: `${bc}` }}  className="col p-2 m-2 d-flex justify-content-center">
-                    <button onClick={changeToRed}>New Love Pic</button>
-                </div> 
-                <div style={{ backgroundColor: `${bc}` }}  className="col p-2 m-2 d-flex justify-content-center">
-                    <button onClick={changeToBlue}>New Cat Pic</button>
+                    <button onClick={changeToRed}>{message}</button>
                 </div> 
             </div>
         </div>
